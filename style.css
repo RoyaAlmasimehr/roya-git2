@@ -107,3 +107,7 @@ h1 {
   position: absolute;
   left: 8%;
 }
+.src {
+  display: block;
+  margin: auto;
+}
