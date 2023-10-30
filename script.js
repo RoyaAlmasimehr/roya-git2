@@ -33,6 +33,7 @@ let month = months[now.getMonth()];
 
 dates.innerHTML = ` ${day} ${dateToday} ${month}
 ${hours}: ${minutes} `;
+
 function displayWeatherCondition(response) {
   console.log(response);
   document.querySelector("#city-name").innerhtml = response.data.name;
