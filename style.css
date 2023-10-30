@@ -108,6 +108,5 @@ h1 {
   left: 8%;
 }
 .src {
-  position: absolute;
-  left: 70px;
+  text-align: center;
 }
